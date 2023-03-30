@@ -1,0 +1,18 @@
+bri = bri = "C:/Users/briana_amezcua/Downloads/i2.wav"
+
+sample bri
+
+sleep 12.4
+
+live_loop:one do
+  sample :drum_cymbal_closed,amp:  0.3
+  sleep 0.444
+end
+
+sleep 0.75
+
+live_loop:two do
+  sample :drum_bass_soft,amp: 0.5
+  sleep 1.78
+end
+
